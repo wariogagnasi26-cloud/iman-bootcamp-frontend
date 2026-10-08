@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+
+    <title>IMAN bootcamp - frontend track</title>
+
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+    </main>
+          <header>
+            <nav>
+               <h1>IMAN bootcamp</h1>
+               <button type="button" class="menu-toggle" id="menuButton">☰</button>
+               <ul id="navMenu"></ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#learn">what you will learn</a></li>
+                <li><a href="#why-iman">Why IMAN</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">contact</a></li>
+               </ul>
+           </nav>
+        </header>
+     <main>
+     <section id="home">
+        <h2>IMAN Bootcamp</h2>
+        <h3>Frontend Track</h3>
+        <p>
+            Learn how to build, responsive websites using HTML,CSS and JavaScript.
+        </p>
+        <a href="#about">Learn More</a>
+     </section> 
+     <!--about section-->
+     <section id="about">
+        <h2>About the Frontend Track</h2>
+     <p>
+       The IMAN Bootcamp Frontend Track teaches students how to create modern and responsive websites.
+     </p>
+     <P>
+        Students learn the fundamentals of HTML,CSS and JavaScript through practical projects and exercises.
+     </P>
+     <h3>
+        What is Frontend Development?</h3>
+     <P>
+        Frontend development is the process of building the part of a website that users see and interact with.
+     </P>
+    </section>
+    <!--What you will learn section-->
+    <section id="learn">
+    <p>
+      During the IMAN Bootcamp Frontend Track,students will learn the essential skills needed t build websites.  
+     </p>
+     <h3>HTML</h3>
+     <P>
+        Learn how to structure webpages using HTML.
+    </P>
+    <h3>CSS</h3>
+    <P>
+        Learn how to style webpages and create responsive designs using CSS.
+    </P>
+    <h3>JavaScript</h3>
+    <p>
+        Learn how to add interaction and functionality to websites using JavaScript.
+    </p>
+    <h3>Responsive Web Design</h3>
+    <p>
+        Learn how to make websites work well on phones,tablets, and computers.
+    </p>
+    <h3>Git and GitHub</h3>
+    <p>
+        Learn the basics of versions control and how to publish and share your projects using GitHub.
+    </p>
+    </section>
+    <!--why IMAN Bootcamp?-->
+    <section id="why-iman">
+    <h2>Why IMAN Bootcamp?</h2>
+
+    <p>
+        IMAN Bootcamp provides practical learning opportunities that help students
+        develop real-world skills in frontend development.
+    </p>
+
+    <div class="feature">
+        <h3>Practical Learning</h3>
+        <p>
+            Students learn by building real websites and completing practical projects.
+        </p>
+    </div>
+
+    <div class="feature">
+        <h3>Beginner Friendly</h3>
+        <p>
+            The Frontend Track starts from the basics and gradually develops students'
+            skills.
+        </p>
+    </div>
+
+    <div class="feature">
+        <h3>Modern Skills</h3>
+        <p>
+            Students learn HTML, CSS, JavaScript, Git, and GitHub to prepare for
+            modern web development.
+        </p>
+    </div>
+</section>
+    <!--projects-->
+    <section id="projects">
+
+    <h2>Student Projects</h2>
+
+    <img src="images/project-previews.jpg.jpg"
+         alt="Preview of student frontend projects">
+
+    <p>
+        Students apply what they learn by creating practical projects using HTML, CSS and JavaScript.
+    </p>
+
+    <!-- Project filter buttons -->
+    <div class="project-filters">
+        <button onclick="filterProjects('all')">All</button>
+        <button onclick="filterProjects('html')">HTML</button>
+        <button onclick="filterProjects('css')">CSS</button>
+        <button onclick="filterProjects('javascript')">JavaScript</button>
+    </div>
+
+    <div class="project-card html">
+        <h3>Personal Portfolio Website</h3>
+        <p>
+            A personal website that introduces a student, their skills,
+            projects and achievements.
+        </p>
+    </div>
+
+    <div class="project-card css">
+        <h3>Landing Page</h3>
+        <p>
+            A responsive landing page designed to present a product,
+            service, or organization.
+        </p>
+    </div>
+
+    <div class="project-card javascript">
+        <h3>Interactive Web Application</h3>
+        <p>
+            A simple web application that uses JavaScript to create
+            interactive features for users.
+        </p>
+    </div>
+</section>
+    <!--Student testimonial-->
+    <section id="testimonials">
+    <h2>Student Testimonials</h2>
+
+    <div class="testimonial">
+        <p>
+            "The Frontend Track helped me understand how websites are built
+            and gave me confidence to create my own projects."
+        </p>
+        <h3>— IMAN Bootcamp Student</h3>
+    </div>
+
+    <div class="testimonial">
+        <p>
+            "I enjoyed learning HTML, CSS, and JavaScript through practical
+            exercises and projects."
+        </p>
+        <h3>— Frontend Track Student</h3>
+    </div>
+
+    <div class="testimonial">
+        <p>
+            "The practical approach helped me improve my web development skills
+            step by step."
+        </p>
+        <h3>— IMAN Bootcamp Student</h3>
+    </div>
+</section>
+    <!--faq-->
+    <section id="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <button class="faq-question">What is the Frontend Track?</button>
+        <div class="faq-answer">
+            <p>The Frontend Track teaches students how to build modern websites using HTML, CSS, and JavaScript.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">Who can join?</button>
+        <div class="faq-answer">
+            <p>The track is suitable for beginners and students who want to learn frontend web development.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">Do I need previous experience?</button>
+        <div class="faq-answer">
+            <p>No. Beginners can start from the basics and learn step by step.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">What will I learn?</button>
+        <div class="faq-answer">
+            <p>You will learn HTML, CSS, responsive design, JavaScript, DOM manipulation, and web development fundamentals.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">What projects will I build?</button>
+        <div class="faq-answer">
+            <p>You will practice by creating websites and interactive web applications.</p>
+        </div>
+    </div>
+</section>
+    <!--contact-->
+    <section id="contact">
+ <h2>Contact Us</h2>
+ <p>
+    Have a question about the IMAN Bootcamp Frontend Track? Send us a message.
+ </p>
+<form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <br><br>
+
+    <label for="message">Message:</label>
+    <br>
+    <textarea id="message" name="message" rows="5" cols="30"></textarea>
+    <br><br>
+
+    <button type="submit">Send Message</button>
+</form>
+</section>
+    <footer>
+        <p>
+           © 2026 IMAN Bootcamp. All rights reserved. 
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
